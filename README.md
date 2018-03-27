@@ -2,7 +2,7 @@
 
 ## Description
 ```
-A brief description of your project
+A website for my Mobile Cell Phone repair business.
 
 ```
 
