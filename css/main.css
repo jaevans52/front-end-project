@@ -1,3 +1,22 @@
 /*+ Nav bar */
 
   /* - Nav Bar */
+
+  body {
+    font-family: Quicksand;
+  }
+
+  .icon-location {
+    width:35px;
+    position: absolute;
+
+  }
+
+  .main-footer {
+    position: absolute;
+    
+  }
+
+  .main-footer {
+    text-align: center;
+  }
