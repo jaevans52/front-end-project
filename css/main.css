@@ -6,50 +6,7 @@ body {
   font-family: Quicksand;
 }
 
-/* Animate Schedule your Repair button */
-@-webkit-keyframes zoomOut {
-  from {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0;
-    -webkit-transform: scale3d(0.3, 0.3, 0.3);
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
-
-  to {
-    opacity: 0;
-  }
-}
-
-@keyframes zoomOut {
-  from {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0;
-    -webkit-transform: scale3d(0.3, 0.3, 0.3);
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
-
-  to {
-    opacity: 0;
-  }
-}
-
 /* Responsive Sizing */
-
-.zoomOutclass {
-  -webkit-animation-name: zoomOut;
-  animation-name: zoomOut;
-}
-ol, .list {
-  padding-left: 25%
-}
-
- 
 
 
 iframe, object, embed {
@@ -64,4 +21,20 @@ iframe, object, embed {
 	margin: 0 auto;
 	background-color: #047CFC;
   position: relative;
+}
+
+
+.row { 
+  display: flex; 
+  
+  justify-content: space-around; 
+  flex: 1; 
+}
+
+.thank-you-class {
+  text-align:center;
+  padding: 10px 100px;
+	background-color: #047CFC;
+  position: relative;
+  text:white
 }

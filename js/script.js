@@ -1,3 +1,4 @@
-function zoomOut() {
-    document.getElementById("surprise").className="zoomOutclass";
+
+function thankyou() {
+    document.getElementById("TY").style.display = 'block';
     }

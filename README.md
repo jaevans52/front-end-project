@@ -2,7 +2,7 @@
 
 ## Description
 ```
-A website for my Mobile Cell Phone repair business.
+This is a website that I can link  to give more personalized information on my Cell Phone Repair Business.  One completely controlled by me that I can show my customers my personality.
 
 ```
 
@@ -10,11 +10,15 @@ A website for my Mobile Cell Phone repair business.
 
 ## Custom CSS Classes
 ```
-ul {
-    text-align: center;
+.thank-you-class {
+  text-align:center;
+  padding: 10px 100px;
+	background-color: #047CFC;
+  position: relative;
+  text:white
 }
 
-All ul will align center in their parent element.
+creates a contrasting box around the revealed Thank You! message
 
 
 iframe, object, embed {
@@ -22,6 +26,14 @@ iframe, object, embed {
 }
 
 Stretches google map to fill full width of any device
+
+.row { 
+  display: flex; 
+  justify-content: space-around; 
+  flex: 1; 
+}
+
+Makes all rows flex and evenly spaced while also being centered.
 
 .footer {
 
@@ -49,8 +61,7 @@ The javascript functions I created are:
 .. what function does ex( animate() is used to move the elements in the info div across the screen)
 
 ```
-function zoomOut() {
-    document.getElementById("surprise").className="zoomOutclass";
-    } 
-
-    Function zoomOut() executes and reveals the animate.css class zoomOutclass which activates onclink
+function thankyou() {
+    document.getElementById("TY").style.display = 'block';
+    }
+    Function thankyou() executes and blocks the style display:none to reveal a thank you div that was hidden when you click the link the schedule a repair.
