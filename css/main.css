@@ -1,40 +1,62 @@
-/*+ Nav bar */
 
-  /* - Nav Bar */
+/* Font */
 
-  body {
-    font-family: Quicksand;
+/* google font all font */
+body {
+  font-family: Quicksand;
+}
+
+/* Animate Schedule your Repair button */
+@-webkit-keyframes zoomOut {
+  from {
+    opacity: 1;
   }
 
-  .icon-location {
-    width:35px;
-    position: absolute;
-
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
   }
 
-  .main-footer {
-    position: absolute;
-    
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes zoomOut {
+  from {
+    opacity: 1;
   }
 
-  .main-footer {
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.zoomOutclass {
+  -webkit-animation-name: zoomOut;
+  animation-name: zoomOut;
+}
+ul {
     text-align: center;
-  }
-
-
-  @font-face {
-    font-family: 'Glyphicons Halflings';
-  
-    src: url('../fonts/glyphicons-halflings-regular.eot');
-    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
-  }
-
-.wrench li {
-    display: block;
-    margin-left: 190px
 }
 
-.wrench li:before {
-    content: "\e136";
+iframe, object, embed {
+  max-width: 100%;
 }
-   
+
+.footer {
+
+  text-align:center;
+  padding: 10px 0;
+	width:auto;
+	margin: 0 auto;
+	background-color: #047CFC;
+  position: relative;
+}
