@@ -37,9 +37,6 @@ align all text to center of page,
 stretch to fit all width devices,
 change background color to match theme,
 of .footer
-
-
-
 ```
 
 
@@ -56,4 +53,4 @@ function zoomOut() {
     document.getElementById("surprise").className="zoomOutclass";
     } 
 
-    Function zoomOut() reveals the animate.css class zoomOut exit when link is clicked
+    Function zoomOut() executes and reveals the animate.css class zoomOutclass which activates onclink
